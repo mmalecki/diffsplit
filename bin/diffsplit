@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+var fs = require('fs'),
+    diffsplit = require('../');
+
+if (process.argv[2]) {
+  fs.readFile(process.argv[2], 'utf8', function (err, content) {
+    if (err) {
+      throw err;
+    }
+
+    console.log(JSON.stringify(diffsplit(content)));
+  });
+}
+else {
+  var data = '',
+      stdin = process.openStdin();
+
+  stdin.on('data', function (chunk) {
+    data += chunk;
+  });
+
+  stdin.on('end', function () {
+    console.log(JSON.stringify(diffsplit(data)));
+  });
+}
