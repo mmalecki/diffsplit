@@ -1,4 +1,4 @@
-# diffsplit
+# diffsplit [![Build Status](https://secure.travis-ci.org/mmalecki/diffsplit.png)](http://travis-ci.org/mmalecki/diffsplit)
 `diffsplit` is a module for splitting diffs into chunks.
 
 ## Installation
