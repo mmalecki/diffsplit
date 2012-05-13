@@ -1,6 +1,7 @@
 {
   "name": "diffsplit",
   "author": "Maciej Małecki <me@mmalecki.com>",
+  "description": "A module for splitting diffs into chunks",
   "version": "0.0.0",
   "main": "./lib/diffsplit",
   "devDependencies": {
