@@ -2,7 +2,7 @@
   "name": "diffsplit",
   "author": "Maciej Małecki <me@mmalecki.com>",
   "description": "A module for splitting diffs into chunks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/mmalecki/diffsplit.git"
